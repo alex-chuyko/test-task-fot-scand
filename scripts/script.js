@@ -24,5 +24,5 @@ bigCircle.addEventListener("mousemove", function(e) {
     smallCircleObj.move(e);
 });
 
-var bigCircleObj = new Circle(bigCircle, 200, "green");
-var smallCircleObj = new Circle(circle, 25, "red");
+var bigCircleObj = new Circle(bigCircle, BIGRADIUS, "green");
+var smallCircleObj = new Circle(circle, SMALLRADIUS, "red");

@@ -31,8 +31,8 @@ Circle.prototype.move = function(e) {
             smallCircleY -= dr * Math.sin (atan);
             smallCircleX -= dr * Math.cos (atan);   
         } else {
-            smallCircleY += 30 * Math.sin (atan);
-            smallCircleX += 30 * Math.cos (atan);    
+            smallCircleY += (SMALLRADIUS + 5) * Math.sin (atan);
+            smallCircleX += (SMALLRADIUS + 5) * Math.cos (atan);    
         }
 
         circle.style.left = smallCircleX + "px"; 
