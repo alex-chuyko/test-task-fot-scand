@@ -21,3 +21,7 @@ body {
     background-color: green;
     border-radius: 100%;
 }
+ul#mocha-stats, ul#mocha-report {
+    position: absolute;
+    top: 500px;
+}

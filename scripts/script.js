@@ -1,8 +1,8 @@
 var circle = document.getElementById("circle");
 var bigCircle = document.getElementById("bigCircle");
 
-var SMALLRADIUS = 25,
-    BIGRADIUS = 200;
+var SMALLRADIUS = 30,
+    BIGRADIUS = 300;
 
 function isMove(mouse, centerX, centerY) {
     var result =  Math.sqrt(Math.pow(mouse.clientX - centerX, 2) + Math.pow(mouse.clientY - centerY, 2));
